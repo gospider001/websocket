@@ -1,6 +1,6 @@
 module github.com/gospider007/websocket
 
-go 1.26.0
+go 1.27.0
 
 require (
 	github.com/gobwas/ws v1.4.0
@@ -14,7 +14,7 @@ require (
 	github.com/gobwas/httphead v0.1.0 // indirect
 	github.com/gobwas/pool v0.2.1 // indirect
 	github.com/golang/snappy v1.0.0 // indirect
-	github.com/gospider007/kinds v0.0.0-20260211060834-06a10e2431d8 // indirect
+	github.com/gospider007/kinds v0.0.0-20260824054539-a612e386b5ac // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/klauspost/compress v1.19.2 // indirect
 	github.com/minio/minlz v1.2.0 // indirect
