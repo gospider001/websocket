@@ -37,6 +37,6 @@ func (obj *writer) Flush() error {
 }
 func (obj *writer) Reset(w io.Writer) {
 	obj.w.Close()
-	fw, _ := flate.NewWriterDict(w, flate.BestCompression, obj.dict.Bytes())
+	fw, _ := flate.NewWriterDict(w, flate.DefaultCompression, obj.dict.Bytes())
 	obj.w = fw
 }

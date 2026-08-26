@@ -139,7 +139,7 @@ func NewConn(conn io.ReadWriteCloser, isClient bool, Extension string) *Conn {
 	}
 	if isClient && strings.Contains(Extension, "client_no_context_takeover") {
 		con.helper.Compressor = func(w io.Writer) wsflate.Compressor {
-			f, _ := flate.NewWriter(w, flate.BestCompression)
+			f, _ := flate.NewWriter(w, flate.DefaultCompression)
 			return f
 		}
 		con.helper.Decompressor = func(r io.Reader) wsflate.Decompressor {
@@ -149,7 +149,7 @@ func NewConn(conn io.ReadWriteCloser, isClient bool, Extension string) *Conn {
 	}
 	if !isClient && strings.Contains(Extension, "server_no_context_takeover") {
 		con.helper.Compressor = func(w io.Writer) wsflate.Compressor {
-			f, _ := flate.NewWriter(w, flate.BestCompression)
+			f, _ := flate.NewWriter(w, flate.DefaultCompression)
 			return f
 		}
 		con.helper.Decompressor = func(r io.Reader) wsflate.Decompressor {
@@ -180,7 +180,7 @@ func (obj *Conn) newWriter(w io.Writer) *writer {
 	if obj.bit > 0 {
 		bit = obj.bit
 	}
-	fw, _ := flate.NewWriterDict(w, flate.BestCompression, nil)
+	fw, _ := flate.NewWriterDict(w, flate.DefaultCompression, nil)
 	return &writer{
 		l:    1 << uint(bit),
 		dict: bytes.NewBuffer(nil),
