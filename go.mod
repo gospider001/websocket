@@ -4,9 +4,9 @@ go 1.27.0
 
 require (
 	github.com/gobwas/ws v1.4.0
-	github.com/gospider007/gson v0.0.0-20261019072945-307e9757e878
+	github.com/gospider007/gson v0.0.0-20261022083211-608d2bb76f4d
 	github.com/gospider007/re v0.0.0-20260824054539-32823144d328
-	github.com/gospider007/tools v0.0.0-20261019072851-9f938a6a38a3
+	github.com/gospider007/tools v0.0.0-20261022083215-88a4b81abf75
 )
 
 require (
