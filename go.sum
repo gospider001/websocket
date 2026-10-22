@@ -15,8 +15,8 @@ github.com/golang/snappy v1.0.0/go.mod h1:/XxbfmMg8lxefKM7IXC3fBNl/7bRcc72aCRzEW
 github.com/google/go-cmp v0.7.0 h1:wk8382ETsv4JYUZwIsn6YpYiWiBsYLSJiTsyBybVuN8=
 github.com/google/go-cmp v0.7.0/go.mod h1:pXiqmnSA92OHEEa9HXL2W4E7lf9JzCmGVUdgjX3N/iU=
 github.com/google/gofuzz v1.0.0/go.mod h1:dBl0BpW6vV/+mYPU4Po3pmUjxk6FQPldtuIdl/M65Eg=
-github.com/gospider007/gson v0.0.0-20261022083211-608d2bb76f4d h1:BSgmqSaZlV50+Zs435Ee2rO6w/MnkLYUvnqwsX+XQBI=
-github.com/gospider007/gson v0.0.0-20261022083211-608d2bb76f4d/go.mod h1:fgftb03suKepOd9cs9Ic7TAR1sF45pGbMzfIJQltsB4=
+github.com/gospider007/gson v0.0.0-20261022083256-01a6943005c2 h1:qEozCLpW8pjZMp82FhEvEhvDYzoy5UxcuJ1aiscrvuU=
+github.com/gospider007/gson v0.0.0-20261022083256-01a6943005c2/go.mod h1:+mN8vxbHXn6YRINDUY00IvGsJ5OeVsq79bpq9Jvb7yk=
 github.com/gospider007/kinds v0.0.0-20260824054539-a612e386b5ac h1:lJb+JuTFlDiG/5t+7/224eIg3gsLrGJ1igeARm2z2Fg=
 github.com/gospider007/kinds v0.0.0-20260824054539-a612e386b5ac/go.mod h1:75RS5JPKWcrHfr+7VCZxhdI5anNguHHGS/Y9HPWBqTw=
 github.com/gospider007/re v0.0.0-20260824054539-32823144d328 h1:2nJmbFr4WnHMy26A0GijYfAF80BNxoYEB1uKlCQV930=
